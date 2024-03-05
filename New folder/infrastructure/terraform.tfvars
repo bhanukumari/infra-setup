@@ -1,6 +1,6 @@
 region          = "us-east-2"
 vpc_cidr        = "10.0.0.0/16"
-vpc_name        = "dev-vpc"
+vpc_name        = "vpc"
 pub_subnet_cidr = ["10.0.1.0/24", "10.0.2.0/24"]
 pub_subnet_name = ["dev-public-subnet-1", "dev-public-subnet-2"]
 pri_subnet_cidr = ["10.0.3.0/24", "10.0.4.0/24"]
