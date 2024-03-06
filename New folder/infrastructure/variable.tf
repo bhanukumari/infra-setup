@@ -46,3 +46,18 @@ variable "public_rt_name" {
   description = "Name tag of the public rt name"
   type        = string
 }
+
+variable "enable_vpc_logs" {
+  description = "whether vpc flow log enable or not"
+  type        = bool
+}
+
+variable "vpc_flow_log_s3_name" {
+  description = "vpc s3 name"
+  type        = string
+}
+
+variable "vpc-flow-logs-role" {
+    description = "vpc iam role"
+     type        = string
+}
