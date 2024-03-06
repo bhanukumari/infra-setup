@@ -17,3 +17,11 @@ output "igw_id" {
 output "public_routeTable_id" {
   value = module.dev_network.public_routeTable_id
 }
+
+output "natgw_id" {
+  value = module.dev_network.natgw_id
+}
+
+output "eip_id" {
+  value = module.dev_network.eip_id
+}
