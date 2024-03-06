@@ -7,3 +7,6 @@ pri_subnet_cidr = ["10.0.3.0/24", "10.0.4.0/24"]
 pri_subnet_name = ["dev-subnet-1", "dev-subnet-2"]
 igw_name        = "dev-igw"
 public_rt_name  = "dev-public-rt"
+enable_vpc_logs      = true
+vpc_flow_log_s3_name = "dev-avenger-snaatak-p2"
+vpc-flow-logs-role ="dev-vpc-flow-logs-role"
